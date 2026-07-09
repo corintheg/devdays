@@ -8,7 +8,7 @@ export default function Index() {
     return (
         <HomeView
             data={devdaysData}
-            onEventPress={(event) => console.log('Ouvrir', event.id)}
+            onEventPress={(event) => router.push(`/event/${event.id}`)}
             onFeaturedPress={() => router.push('/white-night')}
         />
     );

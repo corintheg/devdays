@@ -50,7 +50,8 @@
         "title": "DJ Snake",
         "venue": "Grande Scène"
       }
-    ]
+    ],
+    "image": "https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   "events": [
     {
@@ -73,7 +74,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Ronisia livre un set Pop sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "2",
@@ -95,7 +98,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "DJ Bens livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/14925309/pexels-photo-14925309.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "3",
@@ -117,7 +122,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Bekar livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/2747448/pexels-photo-2747448.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "4",
@@ -139,7 +146,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Jersey livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/10548498/pexels-photo-10548498.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "5",
@@ -161,7 +170,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Luidji livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1763067/pexels-photo-1763067.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "6",
@@ -183,7 +194,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Trinix livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/31923251/pexels-photo-31923251.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "7",
@@ -205,7 +218,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Yamê livre un set Pop sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "8",
@@ -227,7 +242,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Upsilone livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/14925309/pexels-photo-14925309.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "9",
@@ -249,7 +266,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Theodora enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/6301776/pexels-photo-6301776.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "10",
@@ -271,7 +290,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "TIF livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1047443/pexels-photo-1047443.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "11",
@@ -293,7 +314,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Vladimir Cauchemar livre un set Electro sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/4062563/pexels-photo-4062563.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "12",
@@ -315,7 +338,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "NISKA enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/6782332/pexels-photo-6782332.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "13",
@@ -337,7 +362,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Playboi Carti enflamme la Grande Scène pour un set Rap US en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/36257830/pexels-photo-36257830.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "14",
@@ -359,7 +386,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Carbonne livre un set Pop sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/518389/pexels-photo-518389.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "15",
@@ -381,7 +410,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "DJ Snake House Set livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/10548498/pexels-photo-10548498.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "16",
@@ -403,7 +434,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Meryl livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "17",
@@ -425,7 +458,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Boston Bun livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/31923251/pexels-photo-31923251.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "18",
@@ -447,7 +482,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Vacra livre un set Pop sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "19",
@@ -469,7 +506,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Mosimann livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/14925309/pexels-photo-14925309.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "20",
@@ -491,7 +530,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Dali livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/70222/pexels-photo-70222.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "21",
@@ -513,7 +554,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Kungs livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/10548498/pexels-photo-10548498.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "22",
@@ -535,7 +578,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "KAARIS enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/32061751/pexels-photo-32061751.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "23",
@@ -557,7 +602,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Tiakola livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/2747448/pexels-photo-2747448.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "24",
@@ -579,7 +626,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Bon Entendeur livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/31923251/pexels-photo-31923251.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "25",
@@ -601,7 +650,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Aya Nakamura enflamme la Grande Scène pour un set Pop en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "26",
@@ -623,7 +674,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Black Eyed Peas enflamme la Grande Scène pour un set Pop en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "27",
@@ -645,7 +698,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Wallace Cleaver livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1763067/pexels-photo-1763067.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "28",
@@ -667,7 +722,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Agoria livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/34009292/pexels-photo-34009292.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "29",
@@ -689,7 +746,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Favé livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/6301776/pexels-photo-6301776.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "30",
@@ -711,7 +770,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "LB Aka Labat livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/14925309/pexels-photo-14925309.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "31",
@@ -733,7 +794,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Gazo livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1047443/pexels-photo-1047443.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "32",
@@ -755,7 +818,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Marlon Hoffstadt livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/30640563/pexels-photo-30640563.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "33",
@@ -777,7 +842,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "SCH livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/6782332/pexels-photo-6782332.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "34",
@@ -799,7 +866,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "T78 livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "35",
@@ -821,7 +890,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Zamdane livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "36",
@@ -843,7 +914,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Jennifer Cardini livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/34009292/pexels-photo-34009292.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "37",
@@ -865,7 +938,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Josman enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/70222/pexels-photo-70222.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "38",
@@ -887,7 +962,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Future enflamme la Grande Scène pour un set Rap US en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/2990835/pexels-photo-2990835.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "39",
@@ -909,7 +986,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "GIMS enflamme la Grande Scène pendant la Nuit Blanche, pour un set Pop.",
+      "image": "https://images.pexels.com/photos/3052448/pexels-photo-3052448.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "40",
@@ -931,7 +1010,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "Ninho enflamme la Grande Scène pendant la Nuit Blanche, pour un set Rap.",
+      "image": "https://images.pexels.com/photos/18068018/pexels-photo-18068018.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "41",
@@ -953,7 +1034,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "Travis Scott enflamme la Grande Scène pendant la Nuit Blanche, pour un set Rap US.",
+      "image": "https://images.pexels.com/photos/1529636/pexels-photo-1529636.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "42",
@@ -975,7 +1058,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "Drake enflamme la Grande Scène pendant la Nuit Blanche, pour un set Rap US.",
+      "image": "https://images.pexels.com/photos/29502853/pexels-photo-29502853.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "43",
@@ -997,7 +1082,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "Eminem enflamme la Grande Scène pendant la Nuit Blanche, pour un set Rap US.",
+      "image": "https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "44",
@@ -1019,7 +1106,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": true,
-      "featured": true
+      "featured": true,
+      "description": "DJ Snake enflamme la Grande Scène pendant la Nuit Blanche, pour un set Electro.",
+      "image": "https://images.pexels.com/photos/634617/pexels-photo-634617.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "45",
@@ -1041,7 +1130,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "H JeuneCrack livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/32061751/pexels-photo-32061751.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "46",
@@ -1063,7 +1154,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "NTO Live livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/30640563/pexels-photo-30640563.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "47",
@@ -1085,7 +1178,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Winnterzuko livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/2747448/pexels-photo-2747448.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "48",
@@ -1107,7 +1202,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Feder livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/10548498/pexels-photo-10548498.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "49",
@@ -1129,7 +1226,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Lala &ce livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/1763067/pexels-photo-1763067.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "50",
@@ -1151,7 +1250,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Polo & Pan DJ Set livre un set House sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/31923251/pexels-photo-31923251.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "51",
@@ -1173,7 +1274,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Prince Waly livre un set Rap sur la Scène Horizon.",
+      "image": "https://images.pexels.com/photos/6301776/pexels-photo-6301776.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "52",
@@ -1195,7 +1298,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Joachim Pastor livre un set Techno sur la Scène Pulse.",
+      "image": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "53",
@@ -1217,7 +1322,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "ESDEEKID enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/1047443/pexels-photo-1047443.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "54",
@@ -1239,7 +1346,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "DAMSO enflamme la Grande Scène pour un set Rap en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/6782332/pexels-photo-6782332.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "55",
@@ -1261,7 +1370,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": true
+      "featured": true,
+      "description": "Charlotte de Witte enflamme la Grande Scène pour un set Techno en tête d'affiche.",
+      "image": "https://images.pexels.com/photos/34009292/pexels-photo-34009292.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "56",
@@ -1283,7 +1394,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Closing Ceremony livre un set Festival sur la Grande Scène.",
+      "image": "https://images.pexels.com/photos/634617/pexels-photo-634617.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "57",
@@ -1305,7 +1418,9 @@
       },
       "accentColorKey": "marineNuit",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le pop-up store Nike installé sur le festival propose une sélection exclusive de streetwear et de sneakers en édition limitée. Sur place, un atelier de personnalisation permet de customiser ses vêtements et accessoires avec l'équipe Nike, et quelques surprises attendent les festivaliers les plus stylés tout au long de la journée.",
+      "image": "https://images.pexels.com/photos/30063866/pexels-photo-30063866.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "58",
@@ -1327,7 +1442,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le Food Court McDonald's reste ouvert toute la journée pour permettre à chacun de se restaurer rapidement entre deux concerts. Menus classiques, formules festival et options végétariennes sont disponibles, avec un espace assis à l'ombre pour souffler avant de repartir vers les scènes.",
+      "image": "https://images.pexels.com/photos/33468561/pexels-photo-33468561.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "59",
@@ -1349,7 +1466,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le bar Coca-Cola propose boissons fraîches et cocktails sans alcool tout au long de la journée pour aider les festivaliers à tenir sous la chaleur. Des animations et distributions de goodies rythment aussi la journée aux abords du stand, dans une ambiance conviviale.",
+      "image": "https://images.pexels.com/photos/33425202/pexels-photo-33425202.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "60",
@@ -1371,7 +1490,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "L'espace Samsung Galaxy invite à découvrir en avant-première les derniers smartphones, tablettes et objets connectés de la marque à travers des démonstrations interactives. Des bornes de recharge gratuites sont mises à disposition pour repartir avec la batterie pleine, et des jeux permettent de tenter de gagner des lots Samsung.",
+      "image": "https://images.pexels.com/photos/34009280/pexels-photo-34009280.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "61",
@@ -1393,7 +1514,9 @@
       },
       "accentColorKey": "grisBeton",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "La zone JBL propose une écoute libre des derniers casques et enceintes de la marque dans des cabines pensées pour une immersion sonore optimale. L'occasion de tester le matériel utilisé par les artistes en backstage et de profiter de démonstrations audio tout au long du festival.",
+      "image": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "62",
@@ -1415,7 +1538,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le stand gourmand Haribo distribue bonbons et confiseries emblématiques de la marque, avec un mur à bonbons en libre-service et des goodies à gagner. Petits et grands peuvent y faire une pause sucrée entre deux animations avant de repartir explorer le festival.",
+      "image": "https://images.pexels.com/photos/5469042/pexels-photo-5469042.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "63",
@@ -1437,7 +1562,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "La zone Red Bull accueille des DJ sets en continu ainsi que des animations et jeux tout au long de la journée, dans une ambiance électrique pensée pour faire le plein d'énergie. Des distributions de canettes fraîches permettent de tenir le rythme jusqu'aux têtes d'affiche du soir.",
+      "image": "https://images.pexels.com/photos/4062563/pexels-photo-4062563.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "64",
@@ -1459,7 +1586,9 @@
       },
       "accentColorKey": "vertTerrain",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "L'espace Spotify propose des sessions de karaoké ouvertes à tous ainsi qu'un atelier pour créer sa propre playlist du festival, à emporter directement sur son compte. Une manière ludique de prolonger l'expérience musicale entre deux concerts sur les scènes principales.",
+      "image": "https://images.pexels.com/photos/3475853/pexels-photo-3475853.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "65",
@@ -1481,7 +1610,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le studio créateurs TikTok met à disposition un plateau de tournage équipé, avec éclairage et fonds personnalisés, pour filmer et monter du contenu directement sur place. Des experts de la plateforme sont présents pour donner des conseils de montage et de mise en scène aux créateurs en herbe comme aux habitués.",
+      "image": "https://images.pexels.com/photos/2818118/pexels-photo-2818118.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "66",
@@ -1503,7 +1634,9 @@
       },
       "accentColorKey": "cyanVolt",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "L'espace Orange met à disposition des bornes de recharge gratuites et un accès wifi haut débit pour rester connecté pendant tout le festival. Des animations autour de la 5G et de la réalité augmentée y sont également proposées tout au long de la journée.",
+      "image": "https://images.pexels.com/photos/3348724/pexels-photo-3348724.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "67",
@@ -1525,7 +1658,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le Food Court McDonald's reste ouvert toute la journée pour permettre à chacun de se restaurer rapidement entre deux concerts. Menus classiques, formules festival et options végétariennes sont disponibles, avec un espace assis à l'ombre pour souffler avant de repartir vers les scènes.",
+      "image": "https://images.pexels.com/photos/33468561/pexels-photo-33468561.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "68",
@@ -1547,7 +1682,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le bar Coca-Cola propose boissons fraîches et cocktails sans alcool tout au long de la journée pour aider les festivaliers à tenir sous la chaleur. Des animations et distributions de goodies rythment aussi la journée aux abords du stand, dans une ambiance conviviale.",
+      "image": "https://images.pexels.com/photos/33425202/pexels-photo-33425202.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "69",
@@ -1569,7 +1706,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le Food Court McDonald's reste ouvert toute la journée pour permettre à chacun de se restaurer rapidement entre deux concerts. Menus classiques, formules festival et options végétariennes sont disponibles, avec un espace assis à l'ombre pour souffler avant de repartir vers les scènes.",
+      "image": "https://images.pexels.com/photos/33468561/pexels-photo-33468561.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "70",
@@ -1591,7 +1730,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le bar Coca-Cola propose boissons fraîches et cocktails sans alcool tout au long de la journée pour aider les festivaliers à tenir sous la chaleur. Des animations et distributions de goodies rythment aussi la journée aux abords du stand, dans une ambiance conviviale.",
+      "image": "https://images.pexels.com/photos/33425202/pexels-photo-33425202.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "71",
@@ -1613,7 +1754,9 @@
       },
       "accentColorKey": "orangeBombe",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le Food Court McDonald's reste ouvert toute la journée pour permettre à chacun de se restaurer rapidement entre deux concerts. Menus classiques, formules festival et options végétariennes sont disponibles, avec un espace assis à l'ombre pour souffler avant de repartir vers les scènes.",
+      "image": "https://images.pexels.com/photos/33468561/pexels-photo-33468561.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       "id": "72",
@@ -1635,7 +1778,9 @@
       },
       "accentColorKey": "coraiFlash",
       "nightWhite": false,
-      "featured": false
+      "featured": false,
+      "description": "Le bar Coca-Cola propose boissons fraîches et cocktails sans alcool tout au long de la journée pour aider les festivaliers à tenir sous la chaleur. Des animations et distributions de goodies rythment aussi la journée aux abords du stand, dans une ambiance conviviale.",
+      "image": "https://images.pexels.com/photos/33425202/pexels-photo-33425202.jpeg?auto=compress&cs=tinysrgb&w=1200"
     }
   ]
 }

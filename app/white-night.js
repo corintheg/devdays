@@ -9,7 +9,7 @@ export default function WhiteNight() {
         <WhiteNghtDetail
             data={devdaysData.featuredEvent}
             onBack={() => router.back()}
-            onLineupItemPress={(item) => console.log('Ouvrir', item.id)}
+            onLineupItemPress={(item) => router.push(`/event/${item.id}`)}
         />
     );
 }
