@@ -1,0 +1,1593 @@
+{
+  "featuredEvent": {
+    "id": "night-white",
+    "title": "NUIT BLANCHE",
+    "subtitle": "Samedi 11 juillet • dès 21h00 — Le temps fort des DevDays"
+  },
+  "events": [
+    {
+      "id": "1",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "Ronisia",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "2",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "DJ Bens",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "3",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Bekar",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "4",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Jersey",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "5",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Luidji",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "6",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Trinix",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "7",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Yamê",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "8",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Upsilone",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "9",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "18:00",
+      "title": "Theodora",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "10",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "TIF",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "11",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "Vladimir Cauchemar",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Electro"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "12",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "20:30",
+      "title": "NISKA",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "13",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "22:15",
+      "title": "Playboi Carti",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap US"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "14",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "Carbonne",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "15",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "DJ Snake House Set",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "16",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Meryl",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "17",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Boston Bun",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "18",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Vacra",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "19",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Mosimann",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "20",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Dali",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "21",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Kungs",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "22",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "18:00",
+      "title": "KAARIS",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "23",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "Tiakola",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "24",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "Bon Entendeur",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "25",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "20:30",
+      "title": "Aya Nakamura",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "26",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "22:15",
+      "title": "Black Eyed Peas",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "27",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "Wallace Cleaver",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "28",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "Agoria",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "29",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Favé",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "30",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "LB Aka Labat",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "31",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Gazo",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "32",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Marlon Hoffstadt",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "33",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "SCH",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "34",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "T78",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "35",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "18:00",
+      "title": "Zamdane",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "36",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "18:00",
+      "title": "Jennifer Cardini",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "37",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "Josman",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "38",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "20:45",
+      "title": "Future",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap US"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "39",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "21:00",
+      "title": "GIMS",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "40",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "22:10",
+      "title": "Ninho",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "41",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "23:30",
+      "title": "Travis Scott",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Rap US"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "42",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "01:05",
+      "title": "Drake",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Rap US"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "43",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "02:40",
+      "title": "Eminem",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Rap US"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "44",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "04:15",
+      "title": "DJ Snake",
+      "subtitle": "Concert • Grande Scène",
+      "category": "NUIT BLANCHE",
+      "tags": [
+        "Nuit Blanche"
+      ],
+      "genres": [
+        "Electro"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": true,
+      "featured": true
+    },
+    {
+      "id": "45",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "H JeuneCrack",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "46",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "14:00",
+      "title": "NTO Live",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "47",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Winnterzuko",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "48",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Feder",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "49",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Lala &ce",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "50",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Polo & Pan DJ Set",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "House"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "51",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Prince Waly",
+      "subtitle": "Concert • Scène Horizon",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Scène Horizon",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "52",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Joachim Pastor",
+      "subtitle": "Concert • Scène Pulse",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Scène Pulse",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "53",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "18:00",
+      "title": "ESDEEKID",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "54",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "19:15",
+      "title": "DAMSO",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "55",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "21:00",
+      "title": "Charlotte de Witte",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Techno"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": true
+    },
+    {
+      "id": "56",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "22:30",
+      "title": "Closing Ceremony",
+      "subtitle": "Concert • Grande Scène",
+      "category": "CONCERT",
+      "tags": [
+        "Concerts"
+      ],
+      "genres": [
+        "Festival"
+      ],
+      "venue": {
+        "name": "Grande Scène",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "57",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "11:00",
+      "title": "Nike — Streetwear",
+      "subtitle": "Animation • Pop-up store streetwear & customisation",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Stand Nike",
+        "colorKey": "craie"
+      },
+      "accentColorKey": "marineNuit",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "58",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "McDonald's — Food Court",
+      "subtitle": "Animation • Restauration rapide sur tout le site",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Food Court McDonald's",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "59",
+      "day": "jeu09",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Coca-Cola — Bar rafraîchissements",
+      "subtitle": "Animation • Bar à boissons fraîches",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Bar Coca-Cola",
+        "colorKey": "coraiFlash"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "60",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "11:00",
+      "title": "Samsung — Expérience Galaxy",
+      "subtitle": "Animation • Démos Galaxy & bornes de recharge",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Espace Samsung Galaxy",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "61",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "JBL — Zone son immersive",
+      "subtitle": "Animation • Casques & enceintes en écoute libre",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Zone Son JBL",
+        "colorKey": "grisBeton"
+      },
+      "accentColorKey": "grisBeton",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "62",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "16:00",
+      "title": "Haribo — Stand gourmand",
+      "subtitle": "Animation • Bonbons & bar à gourmandises",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Stand Gourmand Haribo",
+        "colorKey": "coraiFlash"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "63",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "12:00",
+      "title": "Red Bull — Zone DJ & animations",
+      "subtitle": "Animation • DJ sets & jeux toute la journée",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Zone DJ Red Bull",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "64",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "17:00",
+      "title": "Spotify — Playlists & karaoké",
+      "subtitle": "Animation • Karaoké & création de playlists",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Scène Spotify",
+        "colorKey": "vertTerrain"
+      },
+      "accentColorKey": "vertTerrain",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "65",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "TikTok — Studio créateurs",
+      "subtitle": "Animation • Studio de tournage & montage vidéo",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Studio Créateurs TikTok",
+        "colorKey": "craie"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "66",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Orange — Recharge & connectivité",
+      "subtitle": "Animation • Recharge gratuite & bornes wifi",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Espace Orange",
+        "colorKey": "cyanVolt"
+      },
+      "accentColorKey": "cyanVolt",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "67",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "McDonald's — Food Court",
+      "subtitle": "Animation • Restauration rapide sur tout le site",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Food Court McDonald's",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "68",
+      "day": "ven10",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Coca-Cola — Bar rafraîchissements",
+      "subtitle": "Animation • Bar à boissons fraîches",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Bar Coca-Cola",
+        "colorKey": "coraiFlash"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "69",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "McDonald's — Food Court",
+      "subtitle": "Animation • Restauration rapide sur tout le site",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Food Court McDonald's",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "70",
+      "day": "sam11",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Coca-Cola — Bar rafraîchissements",
+      "subtitle": "Animation • Bar à boissons fraîches",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Bar Coca-Cola",
+        "colorKey": "coraiFlash"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "71",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "13:00",
+      "title": "McDonald's — Food Court",
+      "subtitle": "Animation • Restauration rapide sur tout le site",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Food Court McDonald's",
+        "colorKey": "orangeBombe"
+      },
+      "accentColorKey": "orangeBombe",
+      "nightWhite": false,
+      "featured": false
+    },
+    {
+      "id": "72",
+      "day": "dim12",
+      "month": "juillet",
+      "time": "15:00",
+      "title": "Coca-Cola — Bar rafraîchissements",
+      "subtitle": "Animation • Bar à boissons fraîches",
+      "category": "ANIMATION",
+      "tags": [
+        "Animations"
+      ],
+      "genres": [
+        "Sponsor"
+      ],
+      "venue": {
+        "name": "Bar Coca-Cola",
+        "colorKey": "coraiFlash"
+      },
+      "accentColorKey": "coraiFlash",
+      "nightWhite": false,
+      "featured": false
+    }
+  ]
+}
