@@ -2,7 +2,55 @@
   "featuredEvent": {
     "id": "night-white",
     "title": "NUIT BLANCHE",
-    "subtitle": "Samedi 11 juillet • dès 21h00 — Le temps fort des DevDays"
+    "subtitle": "Samedi 11 juillet • dès 21h00 — Le temps fort des DevDays",
+    "badge": "Samedi 11 juillet",
+    "description": "Six têtes d'affiche s'enchaînent sur la Grande Scène jusqu'au lever du jour pour clôturer les DevDays en beauté.",
+    "startTime": {
+      "label": "21:00",
+      "caption": "Ouverture · GIMS"
+    },
+    "endTime": {
+      "label": "04:15",
+      "caption": "Clôture · DJ Snake"
+    },
+    "lineup": [
+      {
+        "id": "39",
+        "time": "21:00",
+        "title": "GIMS",
+        "venue": "Grande Scène"
+      },
+      {
+        "id": "40",
+        "time": "22:10",
+        "title": "Ninho",
+        "venue": "Grande Scène"
+      },
+      {
+        "id": "41",
+        "time": "23:30",
+        "title": "Travis Scott",
+        "venue": "Grande Scène"
+      },
+      {
+        "id": "42",
+        "time": "01:05",
+        "title": "Drake",
+        "venue": "Grande Scène"
+      },
+      {
+        "id": "43",
+        "time": "02:40",
+        "title": "Eminem",
+        "venue": "Grande Scène"
+      },
+      {
+        "id": "44",
+        "time": "04:15",
+        "title": "DJ Snake",
+        "venue": "Grande Scène"
+      }
+    ]
   },
   "events": [
     {
