@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
     View,
     Text,
+    Image,
     Pressable,
     ScrollView,
     StyleSheet,
@@ -11,29 +12,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useFonts, BricolageGrotesque_700Bold, BricolageGrotesque_800ExtraBold } from '@expo-google-fonts/bricolage-grotesque';
 import { HankenGrotesk_400Regular, HankenGrotesk_600SemiBold, HankenGrotesk_700Bold } from '@expo-google-fonts/hanken-grotesk';
 import { SpaceMono_700Bold } from '@expo-google-fonts/space-mono';
-
-// Palette officielle DevDays (charte graphique v1.0)
-const COLORS = {
-    orangeBombe: '#FDAE21',  // fond signature, blocs d'énergie
-    vertTerrain: '#459051',  // hiérarchie — boutons secondaires, tags, validations
-    marineNuit: '#041141',   // texte principal, contours épais, fonds sombres
-    coraiFlash: '#FF5A5F',   // accent — alertes, live/urgent, badges promo, CTA
-    cyanVolt: '#38C6E0',     // accent — liens, infos, éléments interactifs
-    craie: '#F7F2E8',        // neutre — fond clair, surfaces
-    grisBeton: '#7C828D',    // neutre — textes secondaires, bordures
-    encre: '#041141',        // neutre — texte sur fond clair
-};
-
-// Typographie officielle : Bricolage Grotesque (titres, lettrage bombé),
-// Hanken Grotesk (texte courant, labels UI) et Space Mono (label / surtitre)
-const FONTS = {
-    displayExtraBold: 'BricolageGrotesque_800ExtraBold', // titre d'affichage / logo
-    displayBold: 'BricolageGrotesque_700Bold',           // titre de section
-    bodyBold: 'HankenGrotesk_700Bold',                   // texte UI en gras (boutons, filtres)
-    bodySemiBold: 'HankenGrotesk_600SemiBold',           // sous-titre / accroche
-    bodyRegular: 'HankenGrotesk_400Regular',             // corps de texte (interligne 1.6)
-    labelMono: 'SpaceMono_700Bold',                      // label / surtitre — 12-13px, tracking 0.2em
-};
+import { COLORS, FONTS } from '../theme';
 
 const DAYS = [
     { key: 'jeu09', label: 'JEU', date: '09', fullLabel: 'Jeudi 9 juillet' },
@@ -43,37 +22,6 @@ const DAYS = [
 ];
 
 const FILTERS = ['Tous', 'Concerts', 'Animations', 'Nuit Blanche'];
-
-/**
- * Forme de données attendue pour la prop `data` (typiquement importée
- * depuis un fichier JSON local, ex. `data/devdaysData.json`) :
- *
- * {
- *   featuredEvent: {
- *     id: string,
- *     title: string,       // ex. "NUIT BLANCHE"
- *     subtitle: string,    // ex. "Sam 11 · dès 23h30 — le temps fort"
- *   } | null,
- *
- *   events: Array<{
- *     id: string,
- *     day: 'jeu09' | 'ven10' | 'sam11' | 'dim12',   // doit matcher la clé DAYS ci-dessus
- *     time: string,                                  // ex. "17:00"
- *     title: string,
- *     subtitle: string,
- *     category: string,                              // ex. "ANIMATION", affiché tel quel
- *     tags: string[],                                // ex. ["Animations"] — utilisé par les filtres du haut
- *     venue: {
- *       name: string,        // ex. "Chapiteau Craie"
- *       colorKey: string,    // une clé de COLORS, ex. "craie" | "cyanVolt" | "orangeBombe"
- *     },
- *     accentColorKey: string, // clé de COLORS pour la barre verticale à gauche de la carte
- *   }>,
- * }
- *
- * Les callbacks (`onFeaturedPress`, `onEventPress`) sont séparés de `data`
- * car des fonctions ne peuvent pas être stockées dans un JSON.
- */
 
 // Tag de lieu : si la couleur associée est "craie" (proche du fond clair de
 // la page), on bascule en style contour pour rester lisible ; sinon on
@@ -227,13 +175,12 @@ export default function HomeView({ data, onFeaturedPress, onEventPress }) {
                 <View style={styles.squareDecor} pointerEvents="none" />
 
                 <View style={styles.headerRow}>
-                    {/*
-            NOTE : selon la charte, DEVDAYS est un logotype protégé avec
-            zone de protection et taille minimale (76px sur app). Ce Text
-            est une approximation de secours — remplace-le par le vrai
-            logo (react-native-svg) dès que possible.
-          */}
-                    <Text style={styles.logo}>DEVDAYS</Text>
+                    <Image
+                        source={require('../assets/images/logo-1.png')}
+                        style={styles.logo}
+                        resizeMode="contain"
+                        accessibilityLabel="DevDays"
+                    />
 
                     <View style={styles.yearBadgeWrap}>
                         <View style={styles.yearBadgeShadow} pointerEvents="none" />
@@ -385,13 +332,8 @@ const styles = StyleSheet.create({
         marginTop: 8,
     },
     logo: {
-        fontFamily: FONTS.displayExtraBold,
-        fontSize: 32,
-        color: COLORS.vertTerrain,
-        letterSpacing: 0.5,
-        textShadowColor: COLORS.marineNuit,
-        textShadowOffset: { width: 2, height: 2 },
-        textShadowRadius: 0,
+        height: 40,
+        width: 40 * (1142 / 404),
     },
     yearBadgeWrap: {
         marginLeft: 12,
