@@ -1637,5 +1637,291 @@
       "nightWhite": false,
       "featured": false
     }
-  ]
+  ],
+  "partners": [
+    {
+      "id": "volteck",
+      "name": "Volteck Énergie",
+      "category": "Partenaire officiel",
+      "colorKey": "orangeBombe",
+      "initials": "VE",
+      "description": "Partenaire officiel du festival, Volteck Énergie alimente les scènes en électricité verte et propose un point de recharge solaire pour les festivaliers.",
+      "location": "Village Partenaires",
+      "hours": "10h00 – 02h00"
+    },
+    {
+      "id": "craft-cola",
+      "name": "Craft Cola",
+      "category": "Bar & boissons",
+      "colorKey": "coraiFlash",
+      "initials": "CC",
+      "description": "Sodas artisanaux brassés localement. Le stand propose une dégustation gratuite avant 18h chaque jour.",
+      "location": "Village Partenaires",
+      "hours": "12h00 – 03h00"
+    },
+    {
+      "id": "mobigo",
+      "name": "MobiGo",
+      "category": "Mobilité",
+      "colorKey": "cyanVolt",
+      "initials": "MG",
+      "description": "Navettes et trottinettes en libre-service pour rejoindre le site. Réduction festival avec le code DEVDAYS27.",
+      "location": "Village Partenaires",
+      "hours": "08h00 – 04h00"
+    },
+    {
+      "id": "pixelbank",
+      "name": "PixelBank",
+      "category": "Cashless",
+      "colorKey": "marineNuit",
+      "initials": "PB",
+      "description": "Rechargez votre bracelet cashless sans file d'attente. Bonus de 5% offert sur la première recharge du festival.",
+      "location": "Stand PixelBank — entrée principale",
+      "hours": "09h00 – 01h00"
+    },
+    {
+      "id": "greenloop",
+      "name": "GreenLoop",
+      "category": "Éco-responsable",
+      "colorKey": "vertTerrain",
+      "initials": "GL",
+      "description": "Collecte et tri des déchets du festival. Rapportez vos gobelets pour tenter de gagner des places pour l'édition 2028.",
+      "location": "Village Partenaires",
+      "hours": "10h00 – 03h00"
+    },
+    {
+      "id": "sonartech",
+      "name": "SonarTech",
+      "category": "Audio",
+      "colorKey": "grisBeton",
+      "initials": "ST",
+      "description": "Bouchons d'oreilles sur mesure et démonstration de matériel audio haute-fidélité.",
+      "location": "Village Partenaires",
+      "hours": "12h00 – 00h00"
+    }
+  ],
+  "mapPois": [
+    {
+      "id": "poi-scene-horizon",
+      "type": "scene",
+      "name": "Scène Horizon",
+      "description": "Grande scène principale, tête d'affiche du festival.",
+      "x": 54,
+      "y": 41,
+      "central": true
+    },
+    {
+      "id": "poi-club-volt",
+      "type": "scene",
+      "name": "Club Volt",
+      "description": "Espace couvert dédié aux musiques électroniques.",
+      "x": 34,
+      "y": 22
+    },
+    {
+      "id": "poi-scene-bombe",
+      "type": "scene",
+      "name": "Scène Bombe",
+      "description": "Scène énergique dédiée aux lives et DJ sets.",
+      "x": 20,
+      "y": 46
+    },
+    {
+      "id": "poi-scene-terrain",
+      "type": "scene",
+      "name": "Scène Terrain",
+      "description": "Scène en plein air, ambiance festive.",
+      "x": 79,
+      "y": 50
+    },
+    {
+      "id": "poi-food-1",
+      "type": "food",
+      "name": "Foodtrucks Sud",
+      "description": "Zone de restauration : burgers, végétarien, snacks salés.",
+      "x": 33,
+      "y": 68
+    },
+    {
+      "id": "poi-food-2",
+      "type": "food",
+      "name": "Bar Central",
+      "description": "Boissons fraîches et cocktails sans alcool.",
+      "x": 47,
+      "y": 74
+    },
+    {
+      "id": "poi-partner-pixelbank",
+      "type": "partner",
+      "name": "PixelBank",
+      "description": "Stand cashless — recharge de bracelet.",
+      "x": 17,
+      "y": 76,
+      "partnerIds": [
+        "pixelbank"
+      ]
+    },
+    {
+      "id": "poi-firstaid",
+      "type": "firstaid",
+      "name": "Poste de secours",
+      "description": "Poste médical, ouvert 24h/24 pendant le festival.",
+      "x": 53,
+      "y": 60
+    },
+    {
+      "id": "poi-water-1",
+      "type": "water",
+      "name": "Point d'eau — Sud",
+      "description": "Fontaine à eau potable gratuite.",
+      "x": 25,
+      "y": 90
+    },
+    {
+      "id": "poi-water-2",
+      "type": "water",
+      "name": "Toilettes — Nord",
+      "description": "Sanitaires, accès PMR.",
+      "x": 69,
+      "y": 17
+    },
+    {
+      "id": "poi-entry-main",
+      "type": "entry",
+      "name": "Entrée principale",
+      "description": "Entrée / sortie principale du site.",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "id": "poi-entry-north",
+      "type": "entry",
+      "name": "Sortie Nord",
+      "description": "Sortie secondaire côté parking.",
+      "x": 89,
+      "y": 8,
+      "glyphRotation": 70
+    }
+  ],
+  "mapZones": [
+    {
+      "id": "zone-village-partenaires",
+      "type": "partner",
+      "name": "Village Partenaires",
+      "description": "Volteck Énergie · Craft Cola · MobiGo · GreenLoop · SonarTech",
+      "x": 31,
+      "y": 37,
+      "labelY": 31,
+      "w": 333,
+      "h": 56,
+      "rot": -9,
+      "colorKey": "cyanVolt",
+      "partnerIds": [
+        "volteck",
+        "craft-cola",
+        "mobigo",
+        "greenloop",
+        "sonartech"
+      ]
+    },
+    {
+      "id": "zone-parking-ouest",
+      "type": "parking",
+      "name": "Parking Ouest",
+      "description": "Parking visiteurs, 5 min à pied de l'entrée.",
+      "x": 13,
+      "y": 94,
+      "labelY": 98,
+      "w": 250,
+      "h": 48,
+      "rot": 6,
+      "colorKey": "grisBeton"
+    },
+    {
+      "id": "zone-parking-est",
+      "type": "parking",
+      "name": "Parking Est",
+      "description": "Parking covoiturage et dépose-minute.",
+      "x": 87,
+      "y": 92,
+      "labelY": 96,
+      "w": 250,
+      "h": 48,
+      "rot": -6,
+      "colorKey": "grisBeton"
+    }
+  ],
+  "mapTrees": [
+    {
+      "x": 15,
+      "y": 30,
+      "s": 43
+    },
+    {
+      "x": 42,
+      "y": 14,
+      "s": 37
+    },
+    {
+      "x": 60,
+      "y": 28,
+      "s": 40
+    },
+    {
+      "x": 12,
+      "y": 60,
+      "s": 37
+    },
+    {
+      "x": 60,
+      "y": 20,
+      "s": 33
+    },
+    {
+      "x": 38,
+      "y": 82,
+      "s": 40
+    },
+    {
+      "x": 60,
+      "y": 78,
+      "s": 37
+    },
+    {
+      "x": 80,
+      "y": 32,
+      "s": 43
+    },
+    {
+      "x": 85,
+      "y": 64,
+      "s": 37
+    },
+    {
+      "x": 45,
+      "y": 48,
+      "s": 33
+    },
+    {
+      "x": 70,
+      "y": 88,
+      "s": 37
+    },
+    {
+      "x": 20,
+      "y": 84,
+      "s": 33
+    },
+    {
+      "x": 8,
+      "y": 80,
+      "s": 37
+    },
+    {
+      "x": 88,
+      "y": 20,
+      "s": 33
+    }
+  ],
+  "mapGroundPath": "M 9 13 C 19 21, 14 30, 22 38 C 30 46, 19 51, 25 59 C 30 67, 40 63, 43 71 C 45 78, 51 75, 53 66 C 55 58, 46 50, 54 44 C 62 38, 48 29, 39 23 C 33 19, 40 15, 51 17 C 63 19, 71 22, 69 30 C 67 38, 75 44, 79 50 C 83 56, 85 46, 81 38 C 77 30, 83 20, 89 12"
 }
