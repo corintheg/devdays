@@ -1,6 +1,6 @@
 import { useRouter } from 'expo-router';
-import HomeView from '../components/HomeView';
-import devdaysData from '../data/devdaysData.json';
+import HomeView from '../../components/HomeView';
+import devdaysData from '../../data/devdaysData.json';
 
 export default function Index() {
     const router = useRouter();
