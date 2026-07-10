@@ -28,14 +28,19 @@ const POI_TYPES = {
     parking: { label: 'Parking', glyph: 'P', colorKey: 'grisBeton', outline: false },
 };
 
-function getSwatchStyle(meta) {
+// overrideColorKey permet à un POI précis d'afficher sa propre couleur (ex.
+// la couleur exacte de sa scène telle qu'utilisée sur la page Programme)
+// plutôt que la couleur générique de sa catégorie.
+function getSwatchStyle(meta, overrideColorKey) {
+    const colorKey = overrideColorKey ?? meta.colorKey;
     return meta.outline
         ? { backgroundColor: COLORS.craie, borderColor: COLORS.marineNuit }
-        : { backgroundColor: COLORS[meta.colorKey], borderColor: COLORS.marineNuit };
+        : { backgroundColor: COLORS[colorKey], borderColor: COLORS.marineNuit };
 }
 
-function getGlyphColor(meta) {
-    return meta.outline || meta.colorKey !== 'marineNuit' ? COLORS.marineNuit : COLORS.craie;
+function getGlyphColor(meta, overrideColorKey) {
+    const colorKey = overrideColorKey ?? meta.colorKey;
+    return meta.outline || colorKey !== 'marineNuit' ? COLORS.marineNuit : COLORS.craie;
 }
 
 const MAX_ZOOM = 2.5;
@@ -139,11 +144,11 @@ function Marker({ poi, onPress }) {
             style={[styles.markerWrap, { left: toCanvasX(poi.x), top: toCanvasY(poi.y) }]}
         >
             <NameBubble label={poi.name} style={styles.markerNameBubble} />
-            <View style={[styles.markerIcon, getSwatchStyle(meta)]}>
+            <View style={[styles.markerIcon, getSwatchStyle(meta, poi.colorKeyOverride)]}>
                 <Text
                     style={[
                         styles.markerGlyph,
-                        { color: getGlyphColor(meta) },
+                        { color: getGlyphColor(meta, poi.colorKeyOverride) },
                         poi.glyphRotation ? { transform: [{ rotate: `${poi.glyphRotation}deg` }] } : null,
                     ]}
                 >
@@ -355,8 +360,14 @@ export default function MapScreen({ data, onViewProgramme, onViewPartners }) {
     const trees = data?.mapTrees ?? [];
     const groundPath = data?.mapGroundPath;
 
+    // Le zoom par défaut est un cran au-dessus du "tout voir" (fitZoom), et on
+    // ne peut pas redescendre en dessous de ce niveau — le "tout voir" pur
+    // reste possible mais n'est plus le minimum absolu, il faut un poil de
+    // marge pour ne jamais montrer de zone vide autour de la carte.
+    const minZoom = fitZoom + ZOOM_STEP;
+
     const applyZoom = (nextZoom) => {
-        const clamped = Math.max(fitZoom, Math.min(MAX_ZOOM, +nextZoom.toFixed(2)));
+        const clamped = Math.max(minZoom, Math.min(MAX_ZOOM, +nextZoom.toFixed(2)));
         const nextPan = clampPan(panRef.current.x, panRef.current.y, clamped);
         setZoom(clamped);
         panRef.current = nextPan;
@@ -384,13 +395,15 @@ export default function MapScreen({ data, onViewProgramme, onViewPartners }) {
                     setFitZoom(nextFit);
 
                     if (!hasFitRef.current) {
-                        // Premier layout : on cadre tout le site d'un coup, centré.
+                        // Premier layout : on cadre tout le site, un cran plus
+                        // zoomé que le "tout voir" strict, centré.
                         hasFitRef.current = true;
+                        const initialZoom = nextFit + ZOOM_STEP;
                         const initialPan = {
-                            x: (width - CANVAS_WIDTH * nextFit) / 2,
-                            y: (height - CANVAS_HEIGHT * nextFit) / 2,
+                            x: (width - CANVAS_WIDTH * initialZoom) / 2,
+                            y: (height - CANVAS_HEIGHT * initialZoom) / 2,
                         };
-                        setZoom(nextFit);
+                        setZoom(initialZoom);
                         panRef.current = initialPan;
                         setPan(initialPan);
                     } else {

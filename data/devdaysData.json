@@ -1640,126 +1640,116 @@
   ],
   "partners": [
     {
-      "id": "volteck",
-      "name": "Volteck Énergie",
-      "category": "Partenaire officiel",
-      "colorKey": "orangeBombe",
-      "initials": "VE",
-      "description": "Partenaire officiel du festival, Volteck Énergie alimente les scènes en électricité verte et propose un point de recharge solaire pour les festivaliers.",
-      "location": "Village Partenaires",
-      "hours": "10h00 – 02h00"
+      "id": "nike",
+      "name": "Nike",
+      "category": "Streetwear",
+      "colorKey": "marineNuit",
+      "initials": "NK",
+      "description": "Pop-up streetwear avec exclusivités festival et personnalisation sur place.",
+      "location": "Stand Nike",
+      "hours": "Jeu 9 juillet · 11h00"
     },
     {
-      "id": "craft-cola",
-      "name": "Craft Cola",
-      "category": "Bar & boissons",
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "category": "Food Court",
+      "colorKey": "orangeBombe",
+      "initials": "MC",
+      "description": "Food court dédié, ouvert tous les jours du festival pour se restaurer entre deux concerts.",
+      "location": "Food Court McDonald's",
+      "hours": "Tous les jours · 13h00"
+    },
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola",
+      "category": "Bar rafraîchissements",
       "colorKey": "coraiFlash",
       "initials": "CC",
-      "description": "Sodas artisanaux brassés localement. Le stand propose une dégustation gratuite avant 18h chaque jour.",
-      "location": "Village Partenaires",
-      "hours": "12h00 – 03h00"
+      "description": "Bar à boissons fraîches, ouvert tous les jours du festival.",
+      "location": "Bar Coca-Cola",
+      "hours": "Tous les jours · 15h00"
     },
     {
-      "id": "mobigo",
-      "name": "MobiGo",
-      "category": "Mobilité",
+      "id": "samsung",
+      "name": "Samsung",
+      "category": "Expérience Galaxy",
       "colorKey": "cyanVolt",
-      "initials": "MG",
-      "description": "Navettes et trottinettes en libre-service pour rejoindre le site. Réduction festival avec le code DEVDAYS27.",
-      "location": "Village Partenaires",
-      "hours": "08h00 – 04h00"
+      "initials": "SG",
+      "description": "Espace de démonstration de la gamme Galaxy, essais et animations connectées.",
+      "location": "Espace Samsung Galaxy",
+      "hours": "Ven 10 juillet · 11h00"
     },
     {
-      "id": "pixelbank",
-      "name": "PixelBank",
-      "category": "Cashless",
-      "colorKey": "marineNuit",
-      "initials": "PB",
-      "description": "Rechargez votre bracelet cashless sans file d'attente. Bonus de 5% offert sur la première recharge du festival.",
-      "location": "Stand PixelBank — entrée principale",
-      "hours": "09h00 – 01h00"
-    },
-    {
-      "id": "greenloop",
-      "name": "GreenLoop",
-      "category": "Éco-responsable",
-      "colorKey": "vertTerrain",
-      "initials": "GL",
-      "description": "Collecte et tri des déchets du festival. Rapportez vos gobelets pour tenter de gagner des places pour l'édition 2028.",
-      "location": "Village Partenaires",
-      "hours": "10h00 – 03h00"
-    },
-    {
-      "id": "sonartech",
-      "name": "SonarTech",
-      "category": "Audio",
+      "id": "jbl",
+      "name": "JBL",
+      "category": "Zone son immersive",
       "colorKey": "grisBeton",
-      "initials": "ST",
-      "description": "Bouchons d'oreilles sur mesure et démonstration de matériel audio haute-fidélité.",
-      "location": "Village Partenaires",
-      "hours": "12h00 – 00h00"
+      "initials": "JBL",
+      "description": "Zone d'écoute immersive et démonstration de matériel audio haute-fidélité.",
+      "location": "Zone Son JBL",
+      "hours": "Ven 10 juillet · 13h00"
+    },
+    {
+      "id": "haribo",
+      "name": "Haribo",
+      "category": "Stand gourmand",
+      "colorKey": "orangeBombe",
+      "initials": "HB",
+      "description": "Stand gourmand avec dégustations et distribution de bonbons Haribo.",
+      "location": "Stand Gourmand Haribo",
+      "hours": "Ven 10 juillet · 16h00"
+    },
+    {
+      "id": "red-bull",
+      "name": "Red Bull",
+      "category": "Zone DJ & animations",
+      "colorKey": "coraiFlash",
+      "initials": "RB",
+      "description": "Zone DJ et animations énergiques toute la journée.",
+      "location": "Zone DJ Red Bull",
+      "hours": "Sam 11 juillet · 12h00"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "Playlists & karaoké",
+      "colorKey": "vertTerrain",
+      "initials": "SP",
+      "description": "Playlists exclusives et sessions karaoké sur la Scène Spotify.",
+      "location": "Scène Spotify",
+      "hours": "Sam 11 juillet · 17h00"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "category": "Studio créateurs",
+      "colorKey": "marineNuit",
+      "initials": "TT",
+      "description": "Studio de création de contenu avec accompagnement par des créateurs TikTok.",
+      "location": "Studio Créateurs TikTok",
+      "hours": "Dim 12 juillet · 13h00"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "category": "Recharge & connectivité",
+      "colorKey": "orangeBombe",
+      "initials": "OR",
+      "description": "Point de recharge et connectivité offerts aux festivaliers.",
+      "location": "Espace Orange",
+      "hours": "Dim 12 juillet · 15h00"
     }
   ],
   "mapPois": [
     {
-      "id": "poi-scene-horizon",
+      "id": "poi-scene-grande",
       "type": "scene",
-      "name": "Scène Horizon",
-      "description": "Grande scène principale, tête d'affiche du festival.",
+      "name": "Grande Scène",
+      "description": "Scène principale, tête d'affiche du festival et clôture de la Nuit Blanche.",
       "x": 54,
       "y": 41,
-      "central": true
-    },
-    {
-      "id": "poi-club-volt",
-      "type": "scene",
-      "name": "Club Volt",
-      "description": "Espace couvert dédié aux musiques électroniques.",
-      "x": 34,
-      "y": 22
-    },
-    {
-      "id": "poi-scene-bombe",
-      "type": "scene",
-      "name": "Scène Bombe",
-      "description": "Scène énergique dédiée aux lives et DJ sets.",
-      "x": 20,
-      "y": 46
-    },
-    {
-      "id": "poi-scene-terrain",
-      "type": "scene",
-      "name": "Scène Terrain",
-      "description": "Scène en plein air, ambiance festive.",
-      "x": 79,
-      "y": 50
-    },
-    {
-      "id": "poi-food-1",
-      "type": "food",
-      "name": "Foodtrucks Sud",
-      "description": "Zone de restauration : burgers, végétarien, snacks salés.",
-      "x": 33,
-      "y": 68
-    },
-    {
-      "id": "poi-food-2",
-      "type": "food",
-      "name": "Bar Central",
-      "description": "Boissons fraîches et cocktails sans alcool.",
-      "x": 47,
-      "y": 74
-    },
-    {
-      "id": "poi-partner-pixelbank",
-      "type": "partner",
-      "name": "PixelBank",
-      "description": "Stand cashless — recharge de bracelet.",
-      "x": 17,
-      "y": 76,
-      "partnerIds": [
-        "pixelbank"
-      ]
+      "central": true,
+      "colorKeyOverride": "orangeBombe"
     },
     {
       "id": "poi-firstaid",
@@ -1801,29 +1791,147 @@
       "x": 89,
       "y": 8,
       "glyphRotation": 70
+    },
+    {
+      "id": "poi-scene-horizon-real",
+      "type": "scene",
+      "name": "Scène Horizon",
+      "description": "Scène dédiée aux concerts, 19 artistes programmés.",
+      "x": 34,
+      "y": 22,
+      "colorKeyOverride": "cyanVolt"
+    },
+    {
+      "id": "poi-scene-pulse",
+      "type": "scene",
+      "name": "Scène Pulse",
+      "description": "Scène dédiée aux concerts, 19 artistes programmés.",
+      "x": 20,
+      "y": 46,
+      "colorKeyOverride": "vertTerrain"
+    },
+    {
+      "id": "poi-nike",
+      "type": "partner",
+      "name": "Stand Nike",
+      "description": "Pop-up streetwear Nike.",
+      "x": 60,
+      "y": 15,
+      "colorKeyOverride": "marineNuit",
+      "partnerIds": [
+        "nike"
+      ]
+    },
+    {
+      "id": "poi-mcdonalds",
+      "type": "partner",
+      "name": "Food Court McDonald's",
+      "description": "Restauration rapide, ouvert tous les jours.",
+      "x": 42,
+      "y": 68,
+      "colorKeyOverride": "orangeBombe",
+      "partnerIds": [
+        "mcdonalds"
+      ]
+    },
+    {
+      "id": "poi-coca-cola",
+      "type": "partner",
+      "name": "Bar Coca-Cola",
+      "description": "Boissons fraîches, ouvert tous les jours.",
+      "x": 58,
+      "y": 78,
+      "colorKeyOverride": "coraiFlash",
+      "partnerIds": [
+        "coca-cola"
+      ]
+    },
+    {
+      "id": "poi-samsung",
+      "type": "partner",
+      "name": "Espace Samsung Galaxy",
+      "description": "Démonstration de la gamme Galaxy.",
+      "x": 78,
+      "y": 25,
+      "colorKeyOverride": "cyanVolt",
+      "partnerIds": [
+        "samsung"
+      ]
+    },
+    {
+      "id": "poi-jbl",
+      "type": "partner",
+      "name": "Zone Son JBL",
+      "description": "Zone d'écoute immersive JBL.",
+      "x": 80,
+      "y": 62,
+      "colorKeyOverride": "grisBeton",
+      "partnerIds": [
+        "jbl"
+      ]
+    },
+    {
+      "id": "poi-haribo",
+      "type": "partner",
+      "name": "Stand Gourmand Haribo",
+      "description": "Dégustation de bonbons Haribo.",
+      "x": 66,
+      "y": 50,
+      "colorKeyOverride": "orangeBombe",
+      "partnerIds": [
+        "haribo"
+      ]
+    },
+    {
+      "id": "poi-red-bull",
+      "type": "partner",
+      "name": "Zone DJ Red Bull",
+      "description": "Zone DJ et animations Red Bull.",
+      "x": 28,
+      "y": 58,
+      "colorKeyOverride": "coraiFlash",
+      "partnerIds": [
+        "red-bull"
+      ]
+    },
+    {
+      "id": "poi-spotify",
+      "type": "partner",
+      "name": "Scène Spotify",
+      "description": "Playlists et karaoké Spotify.",
+      "x": 46,
+      "y": 30,
+      "colorKeyOverride": "vertTerrain",
+      "partnerIds": [
+        "spotify"
+      ]
+    },
+    {
+      "id": "poi-tiktok",
+      "type": "partner",
+      "name": "Studio Créateurs TikTok",
+      "description": "Studio de création de contenu TikTok.",
+      "x": 14,
+      "y": 66,
+      "colorKeyOverride": "marineNuit",
+      "partnerIds": [
+        "tiktok"
+      ]
+    },
+    {
+      "id": "poi-orange",
+      "type": "partner",
+      "name": "Espace Orange",
+      "description": "Recharge et connectivité Orange.",
+      "x": 70,
+      "y": 82,
+      "colorKeyOverride": "orangeBombe",
+      "partnerIds": [
+        "orange"
+      ]
     }
   ],
   "mapZones": [
-    {
-      "id": "zone-village-partenaires",
-      "type": "partner",
-      "name": "Village Partenaires",
-      "description": "Volteck Énergie · Craft Cola · MobiGo · GreenLoop · SonarTech",
-      "x": 31,
-      "y": 37,
-      "labelY": 31,
-      "w": 333,
-      "h": 56,
-      "rot": -9,
-      "colorKey": "cyanVolt",
-      "partnerIds": [
-        "volteck",
-        "craft-cola",
-        "mobigo",
-        "greenloop",
-        "sonartech"
-      ]
-    },
     {
       "id": "zone-parking-ouest",
       "type": "parking",
