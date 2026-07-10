@@ -133,7 +133,7 @@ function EventCard({ event, isFavorite, onPress, onToggleFavorite }) {
 export default function HomeView({ data, onFeaturedPress, onEventPress }) {
     const [selectedDay, setSelectedDay] = useState('jeu09');
     const [selectedFilter, setSelectedFilter] = useState('Tous');
-    const { favorites, toggleFavorite } = useFavorites();
+    const { isFavorite, toggleFavorite } = useFavorites();
 
     const [fontsLoaded] = useFonts({
         BricolageGrotesque_700Bold,
@@ -272,7 +272,7 @@ export default function HomeView({ data, onFeaturedPress, onEventPress }) {
                         <EventCard
                             key={event.id}
                             event={event}
-                            isFavorite={!!favorites[event.id]}
+                            isFavorite={isFavorite(event.id)}
                             onPress={() => onEventPress?.(event)}
                             onToggleFavorite={() => toggleFavorite(event.id)}
                         />

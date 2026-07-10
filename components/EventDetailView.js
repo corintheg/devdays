@@ -117,7 +117,9 @@ export default function EventDetailView({ event, onBack, isFavorite, onToggleFav
                     accessibilityState={{ selected: isFavorite }}
                     style={({ pressed }) => [styles.favoriteButton, pressed && styles.pressed]}
                 >
-                    <Text style={styles.favoriteHeart}>♥</Text>
+                    <Text style={[styles.favoriteHeart, isFavorite && styles.favoriteHeartActive]}>
+                        {isFavorite ? '♥' : '♡'}
+                    </Text>
                     <Text style={styles.favoriteLabel}>
                         {isFavorite ? 'Retirer des favoris' : 'Ajouter aux favoris'}
                     </Text>
@@ -290,6 +292,9 @@ const styles = StyleSheet.create({
     },
     favoriteHeart: {
         fontSize: 18,
+        color: COLORS.marineNuit,
+    },
+    favoriteHeartActive: {
         color: COLORS.coraiFlash,
     },
     favoriteLabel: {

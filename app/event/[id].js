@@ -6,7 +6,7 @@ import { useFavorites } from '../../context/FavoritesContext';
 export default function EventDetailRoute() {
     const router = useRouter();
     const { id } = useLocalSearchParams();
-    const { favorites, toggleFavorite } = useFavorites();
+    const { isFavorite, toggleFavorite } = useFavorites();
 
     const event = devdaysData.events.find((e) => e.id === id);
 
@@ -14,7 +14,7 @@ export default function EventDetailRoute() {
         <EventDetailView
             event={event}
             onBack={() => router.back()}
-            isFavorite={!!favorites[id]}
+            isFavorite={isFavorite(id)}
             onToggleFavorite={() => toggleFavorite(id)}
         />
     );
