@@ -13,13 +13,8 @@ import { useFonts, BricolageGrotesque_700Bold, BricolageGrotesque_800ExtraBold }
 import { HankenGrotesk_400Regular, HankenGrotesk_600SemiBold, HankenGrotesk_700Bold } from '@expo-google-fonts/hanken-grotesk';
 import { SpaceMono_700Bold } from '@expo-google-fonts/space-mono';
 import { COLORS, FONTS } from '../theme';
-
-const DAYS = [
-    { key: 'jeu09', label: 'JEU', date: '09', fullLabel: 'Jeudi 9 juillet' },
-    { key: 'ven10', label: 'VEN', date: '10', fullLabel: 'Vendredi 10 juillet' },
-    { key: 'sam11', label: 'SAM', date: '11', fullLabel: 'Samedi 11 juillet' },
-    { key: 'dim12', label: 'DIM', date: '12', fullLabel: 'Dimanche 12 juillet' },
-];
+import { DAYS } from '../utils/festivalHelpers';
+import { useFavorites } from '../context/FavoritesContext';
 
 const FILTERS = ['Tous', 'Concerts', 'Animations', 'Nuit Blanche'];
 
@@ -138,7 +133,7 @@ function EventCard({ event, isFavorite, onPress, onToggleFavorite }) {
 export default function HomeView({ data, onFeaturedPress, onEventPress }) {
     const [selectedDay, setSelectedDay] = useState('jeu09');
     const [selectedFilter, setSelectedFilter] = useState('Tous');
-    const [favorites, setFavorites] = useState({});
+    const { favorites, toggleFavorite } = useFavorites();
 
     const [fontsLoaded] = useFonts({
         BricolageGrotesque_700Bold,
@@ -152,10 +147,6 @@ export default function HomeView({ data, onFeaturedPress, onEventPress }) {
     if (!fontsLoaded) {
         return null;
     }
-
-    const toggleFavorite = (id) => {
-        setFavorites((prev) => ({ ...prev, [id]: !prev[id] }));
-    };
 
     const selectedDayMeta = DAYS.find((d) => d.key === selectedDay);
     const dayEvents = (data?.events ?? []).filter((event) => {
