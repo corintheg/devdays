@@ -198,6 +198,7 @@ function StageMarker({ poi, onPress }) {
 // Zone (surface) : Village Partenaires + parkings — rectangle teinté plutôt
 // qu'un simple point, avec sa bulle de nom (et sous-titre si présent).
 function Zone({ zone, onPress }) {
+    const meta = POI_TYPES[zone.type];
     const color = COLORS[zone.colorKey] ?? COLORS.grisBeton;
     const cx = toCanvasX(zone.x);
     const cy = toCanvasY(zone.y);
@@ -223,6 +224,9 @@ function Zone({ zone, onPress }) {
                     { left: toCanvasX(zone.x), top: toCanvasY(zone.labelY) },
                 ]}
             >
+                <View style={[styles.legendSwatch, styles.zoneTypeSwatch, getSwatchStyle(meta)]}>
+                    <Text style={[styles.legendGlyph, { color: getGlyphColor(meta) }]}>{meta.glyph}</Text>
+                </View>
                 <NameBubble label={zone.name} />
                 {zone.description ? (
                     <View style={styles.zoneSubBubble}>
@@ -620,8 +624,11 @@ const styles = StyleSheet.create({
     zoneLabelWrap: {
         position: 'absolute',
         alignItems: 'center',
-        transform: [{ translateX: -85 }, { translateY: -20 }],
+        transform: [{ translateX: -85 }, { translateY: -34 }],
         width: 170,
+    },
+    zoneTypeSwatch: {
+        marginBottom: 4,
     },
     zoneSubBubble: {
         marginTop: 3,

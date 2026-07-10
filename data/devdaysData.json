@@ -1,4 +1,3 @@
-
 {
   "featuredEvent": {
     "id": "night-white",
@@ -1749,8 +1748,7 @@
       "description": "Scène principale, tête d'affiche du festival et clôture de la Nuit Blanche.",
       "x": 54,
       "y": 41,
-      "central": true,
-      "colorKeyOverride": "orangeBombe"
+      "central": true
     },
     {
       "id": "poi-firstaid",
@@ -1763,15 +1761,15 @@
     {
       "id": "poi-water-1",
       "type": "water",
-      "name": "Point d'eau — Sud",
-      "description": "Fontaine à eau potable gratuite.",
-      "x": 25,
+      "name": "WC — Sud",
+      "description": "Sanitaires, accès PMR.",
+      "x": 45,
       "y": 90
     },
     {
       "id": "poi-water-2",
       "type": "water",
-      "name": "Toilettes — Nord",
+      "name": "WC — Nord",
       "description": "Sanitaires, accès PMR.",
       "x": 69,
       "y": 17
@@ -1799,8 +1797,7 @@
       "name": "Scène Horizon",
       "description": "Scène dédiée aux concerts, 19 artistes programmés.",
       "x": 34,
-      "y": 22,
-      "colorKeyOverride": "cyanVolt"
+      "y": 22
     },
     {
       "id": "poi-scene-pulse",
@@ -1808,8 +1805,7 @@
       "name": "Scène Pulse",
       "description": "Scène dédiée aux concerts, 19 artistes programmés.",
       "x": 20,
-      "y": 46,
-      "colorKeyOverride": "vertTerrain"
+      "y": 46
     },
     {
       "id": "poi-nike",
@@ -1818,7 +1814,6 @@
       "description": "Pop-up streetwear Nike.",
       "x": 60,
       "y": 15,
-      "colorKeyOverride": "marineNuit",
       "partnerIds": [
         "nike"
       ]
@@ -1830,7 +1825,6 @@
       "description": "Restauration rapide, ouvert tous les jours.",
       "x": 42,
       "y": 68,
-      "colorKeyOverride": "orangeBombe",
       "partnerIds": [
         "mcdonalds"
       ]
@@ -1842,7 +1836,6 @@
       "description": "Boissons fraîches, ouvert tous les jours.",
       "x": 58,
       "y": 78,
-      "colorKeyOverride": "coraiFlash",
       "partnerIds": [
         "coca-cola"
       ]
@@ -1854,7 +1847,6 @@
       "description": "Démonstration de la gamme Galaxy.",
       "x": 78,
       "y": 25,
-      "colorKeyOverride": "cyanVolt",
       "partnerIds": [
         "samsung"
       ]
@@ -1866,7 +1858,6 @@
       "description": "Zone d'écoute immersive JBL.",
       "x": 80,
       "y": 62,
-      "colorKeyOverride": "grisBeton",
       "partnerIds": [
         "jbl"
       ]
@@ -1878,7 +1869,6 @@
       "description": "Dégustation de bonbons Haribo.",
       "x": 66,
       "y": 50,
-      "colorKeyOverride": "orangeBombe",
       "partnerIds": [
         "haribo"
       ]
@@ -1890,7 +1880,6 @@
       "description": "Zone DJ et animations Red Bull.",
       "x": 28,
       "y": 58,
-      "colorKeyOverride": "coraiFlash",
       "partnerIds": [
         "red-bull"
       ]
@@ -1902,7 +1891,6 @@
       "description": "Playlists et karaoké Spotify.",
       "x": 46,
       "y": 30,
-      "colorKeyOverride": "vertTerrain",
       "partnerIds": [
         "spotify"
       ]
@@ -1914,7 +1902,6 @@
       "description": "Studio de création de contenu TikTok.",
       "x": 14,
       "y": 66,
-      "colorKeyOverride": "marineNuit",
       "partnerIds": [
         "tiktok"
       ]
@@ -1926,10 +1913,17 @@
       "description": "Recharge et connectivité Orange.",
       "x": 70,
       "y": 82,
-      "colorKeyOverride": "orangeBombe",
       "partnerIds": [
         "orange"
       ]
+    },
+    {
+      "id": "poi-restauration",
+      "type": "food",
+      "name": "Espace Restauration",
+      "description": "Foodtrucks et snacks, en dehors des stands sponsors.",
+      "x": 62,
+      "y": 62
     }
   ],
   "mapZones": [
